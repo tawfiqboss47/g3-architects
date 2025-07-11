@@ -1,4 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
+}
+:root{
+    --primary: #FF900E;
+    --primary-light: rgba(255, 144, 14, 0.1);
+    --dark_1: #131313;
+    --dark_3: #727272;
+}
+body{
+    font-family: "Work Sans", sans-serif;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+/* Shared  CSS*/
+.d-flex{
+    display: flex;
+}
+.container{
+    max-width: 75%;
+    margin: 0 auto;
+}
+.primary-btn{
+    padding: 10px 20px;
+    background-color: var(--primary);
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+/* Header section css */
+header{
+    background-color: var(--primary-light);
+    padding: 10px 0 50px 0;
+}
+/* navbar css */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand h1 a{
+    color: #131313;
+    font-size: 2.7rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+.menu-bar ul {
+	gap: 30px;
+}
+.menu-bar ul li{
+    list-style: none;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* banner section */
+.banner-content-box {
+	max-width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 80px 0 40px 0;
+}
+.banner-title{
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--dark_1);
+}
+.banner-pragrap {
+	margin: 20px 0;
+    color: var(--dark_3);
 }
