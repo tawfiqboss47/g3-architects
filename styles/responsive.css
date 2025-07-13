@@ -1,0 +1,21 @@
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 90%;
+    }
+    /* Header section responsive */
+    .brand h1 a {
+	    font-size: 2rem;
+    }
+    .link-items {
+        display: none;
+    }
+    .banner-content-box {
+	    max-width: 80%;
+        padding-top: 50px;
+    }
+    .banner-title {
+	    font-size: 2.5rem;
+    }
+    /* team section */
+    
+}

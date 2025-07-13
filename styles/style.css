@@ -70,7 +70,7 @@ header{
 	padding: 80px 0 40px 0;
 }
 .banner-title{
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 700;
     color: var(--dark_1);
 }
