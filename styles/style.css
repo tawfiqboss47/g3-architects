@@ -186,17 +186,18 @@ header{
 .fact-section {
 	padding: 10px 0 50px 0;
 }
-.fact-section .container .team-content-wrap-box {
+.defolt-title-box {
 	width: 40%;
 	padding-right: 0;
 }
-.fact-section .container .team-content-wrap-box h1 {
+.defolt-title-box h1 {
 	margin-bottom: 20px;
 	font-size: 2.8125rem;
 	color: var(--dark_1);
 }
-.fact-section .container .team-content-wrap-box p {
-    color: var(--dark_3);
+.defolt-title-box p {
+	color: var(--dark_3);
+	line-height: 1.7rem;
 }
 .fact-boxs-wrap {
 	display: grid;
@@ -223,5 +224,30 @@ header{
 }
 .fact-box h4 {
 	font-size: 1.25rem;
+	color: var(--dark_3);
+}
+/* Sponsar Section */
+.sponsar-section{
+    margin-bottom: 50px;
+}
+.sponsar-section .defolt-title-box {
+	margin: 0 auto;
+	text-align: center;
+}
+.sponsor-img-box-wrap img {
+	width: auto;
+    filter: grayscale(100%);
+}
+.sponsor-img-box-wrap {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	margin-top: 50px;
+}
+footer .container {
+	background: var(--primary-light);
+	padding: 20px 0;
+	text-align: center;
+	margin: 63px auto;
+	border-radius: 8px;
 	color: var(--dark_3);
 }

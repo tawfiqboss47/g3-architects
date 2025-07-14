@@ -54,7 +54,18 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 4%;
     }
-    .fact-section .container .team-content-wrap-box {
+    .defolt-title-box {
 	    width: 100%;
+    }
+    /* Sponsor section */
+    .sponsar-section {
+	    margin-top: 50px;
+    }
+    .sponsor-img-box-wrap {
+	    grid-template-columns: repeat(2, 1fr);
+    }  
+    .sponsor-img-box-wrap img {
+        margin-bottom: 23px;
+        width: 100%;
     }
 }
