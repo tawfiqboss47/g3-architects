@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 :root{
     --primary: #FF900E;
@@ -165,7 +166,6 @@ header{
 }
 .experiens-box {
 	text-align: center;
-	width: 250px;
 	background: var(--primary);
 	color: white;
 	padding: 28px 23px;
@@ -181,4 +181,47 @@ header{
 .experiens-box h4 {
 	font-weight: 500;
 	font-size: 1.625rem;
+}
+/* Fact Seciton */
+.fact-section {
+	padding: 10px 0 50px 0;
+}
+.fact-section .container .team-content-wrap-box {
+	width: 40%;
+	padding-right: 0;
+}
+.fact-section .container .team-content-wrap-box h1 {
+	margin-bottom: 20px;
+	font-size: 2.8125rem;
+	color: var(--dark_1);
+}
+.fact-section .container .team-content-wrap-box p {
+    color: var(--dark_3);
+}
+.fact-boxs-wrap {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-content: space-between;
+	gap: 8%;
+	width: 95%;
+	margin: 43px auto;
+}
+.fact-box {
+	text-align: center;
+	padding: 28px 0;
+	box-sizing: border-box;
+	border-radius: 8px;
+	border: 1px solid var(--primary);
+}
+.fact-box h2 {
+	font-size: 2.8125rem;
+	margin: 10px 0;
+    color: var(--dark_1);
+}
+.fact-box img{
+    width: auto;
+}
+.fact-box h4 {
+	font-size: 1.25rem;
+	color: var(--dark_3);
 }
