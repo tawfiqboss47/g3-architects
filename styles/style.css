@@ -62,6 +62,9 @@ header{
     font-size: 18px;
     font-weight: 500;
 }
+.open-mobile-menu{
+    display: none;
+}
 /* banner section */
 .banner-content-box {
 	max-width: 60%;
@@ -77,4 +80,105 @@ header{
 .banner-pragrap {
 	margin: 20px 0;
     color: var(--dark_3);
+}
+/* Team Section */
+.team-section {
+	padding: 50px 0;
+}
+.team-section-wrap{
+    justify-content: space-between;
+    align-items: center;
+}
+.team-image-boxs {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+    width: 48%;
+}
+.team-content-box {
+	width: 48%;
+}
+.team-content-box h1{
+    color: var(--dark_1);
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+}
+.team-content-box .lightwade {
+	color: var(--dark_3);
+	font-weight: 500;
+}
+.team-content-box .heilight{
+    color: var(--primary);
+}
+.team-content-box p {
+	margin: 16px 0;
+	color: var(--dark_3);
+	line-height: 26px;
+	font-weight: 400;
+}
+.team-content-wrap-box {
+	padding-right: 21%;
+}
+
+/* Feature Section */
+.feature-section {
+	padding: 50px 0;
+}
+.feature-containers{
+    justify-content: space-between;
+}
+.feature-title-box h1 {
+	border-left: 5px solid #FF900E;
+	line-height: 3.5rem;
+	padding-left: 22px;
+	font-size: 2.5rem;
+}
+.feature-title-box p {
+	color: var(--dark_3);
+	margin-top: 19px;
+	margin-bottom: 36px;
+}
+.feature-content{
+	width: 48%;
+}
+.feature-text-box {
+	width: 96%;
+	box-shadow: 1px 1px 15px 10px #f4f4f4;
+	padding: 25px 25px;
+	box-sizing: border-box;
+	margin-bottom: 21px;
+	border-radius: 8px;
+}
+.feature-image-sis{
+    width: 45%;
+    position: relative;
+}
+.feature-text-box h4 {
+	font-size: 1.25rem;
+	margin-bottom: 13px;
+	color: var(--dark_1);
+}
+.feature-text-box p {
+	font-size: 1rem;
+	line-height: 1.6rem;
+	color: var(--dark_3);
+}
+.experiens-box {
+	text-align: center;
+	width: 250px;
+	background: var(--primary);
+	color: white;
+	padding: 28px 23px;
+	border-radius: 8px;
+	position: absolute;
+	bottom: -4px;
+	left: -75px;
+}
+.experiens-box h1 {
+	font-size: 4.0625rem;
+	font-weight: 700;
+}
+.experiens-box h4 {
+	font-weight: 500;
+	font-size: 1.625rem;
 }
